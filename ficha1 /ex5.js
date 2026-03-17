@@ -5,7 +5,7 @@ const path = require('path');
 const HOST = 'localhost';
 const PORT = 5000;
 
-const server = http.creatServer( (req,res) ) => {
+const server = http.creatServer( (req,res) ) =>{
 
     if(req.method !== 'GET') {
         res.writeHead(405, {'Content-Type': 'text/html'});
